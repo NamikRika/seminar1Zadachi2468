@@ -12,7 +12,7 @@
 // Console.Write("\n"); // "для создание оступов между строками"
 // Console.Write("\n");
 
-// Console.Write("Решение");
+// Console.Write("Решение:");
 
 // Console.Write("\n");// "для создание оступов между строками"
 // Console.Write("\n");
@@ -53,7 +53,7 @@
 // Console.Write("\n"); // "для создание оступов между строками"
 // Console.Write("\n");
 
-// Console.Write("Решение");
+// Console.Write("Решение:");
 
 // Console.Write("\n");// "для создание оступов между строками"
 // Console.Write("\n");
@@ -74,7 +74,7 @@
 //          else if (vtoroyeChislo > pervoyeChislo && vtoroyeChislo > tretyeChislo)
 //            {
 //                 Console.Write("Из чисел " + pervoyeChislo  + ", " + vtoroyeChislo + ", " +  tretyeChislo + ", " + " максимальным является " + vtoroyeChislo);
-//            }   // "конец условия"
+//            }   
 //          else if (tretyeChislo > pervoyeChislo && tretyeChislo > vtoroyeChislo)
 //            {
 //                 Console.Write("Из чисел " + pervoyeChislo  + ", " + vtoroyeChislo + ", " +  tretyeChislo + ", " + " максимальным является " + tretyeChislo);
@@ -82,16 +82,46 @@
 
 // // задача 4 завершена. ------------------------------------------------------------------------
 
-// Начало задачи 6
+
+// // Начало задачи 6
+
+// // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+// // 4 -> да
+// // -3 -> нет
+// // 7 -> нет
+
+// int vvedennoyeChislo = 0; // Obyavlayem peremenniye 
+// int rezultatDeleniya = 0;
+
+// Console.Write("Задача 6: \n Напишите программу, которая на вход принимает число \n и выдаёт, является ли число чётным (делится ли оно на два без остатка).");
+
+// Console.Write("\n"); // "для создание оступов между строками"
+// Console.Write("\n");
+
+// Console.Write("Решение:");
+
+// Console.Write("\n");// "для создание оступов между строками"
+// Console.Write("\n");
+
+// Console.Write("Задайте любое число ");
+// vvedennoyeChislo = Convert.ToInt32(Console.ReadLine()); // "Принимаем данные от пользователя"
+
+// rezultatDeleniya =  vvedennoyeChislo % 2 ;
+
+
+//       if (rezultatDeleniya == 0) // "начало условия"
+//             {
+//                 Console.Write("Вы ввели чётное чмсло");
+//             }
+//           else
+//             {
+//                  Console.Write("Вы ввели нечётное чмсло");
+//             }   // "конец условия"
 
 
 
-// int a =0;
-// string? name = "";
+// // // задача 6 завершена. ------------------------------------------------------------------------
 
-// Console.Write("Введите свое имя: ");
 
-// name = Console.ReadLine();
-// a =  5 + Convert.ToInt32(name);
+// // Начало задачи 8
 
-// Console.WriteLine($"Привет {a}");
